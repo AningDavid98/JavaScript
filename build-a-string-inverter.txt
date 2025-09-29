@@ -1,0 +1,13 @@
+** start of script.js **
+
+function reverseString(value){
+  let spill = value.split('');
+  let reverse = spill.reverse('');
+  let gather = reverse.join('');
+  return gather;
+}
+
+reverseString("hello");
+
+** end of script.js **
+
